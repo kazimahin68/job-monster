@@ -1,0 +1,184 @@
+{
+    "jobs": [
+      {
+        "id": 1,
+        "company_logo": "../../assets/Logo/google-1-1 1.png",
+        "job_title": "Software Engineer",
+        "company_name": "Acme Corporation",
+        "remote_or_onsite": "Remote",
+        "location": "Any",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$120,000 - $150,000",
+        "job_description": "We are seeking a talented software engineer to join our development team. The ideal candidate will have a strong background in computer science or a related field, with a minimum of 3 years of experience in software development. As a software engineer, you will be responsible for designing, developing, and maintaining software applications, writing clean and maintainable code, debugging and troubleshooting issues, collaborating with cross-functional teams, and staying up-to-date with emerging trends and technologies. You will work closely with product managers, designers, and other stakeholders to ensure that software solutions are delivered on time and to the highest quality standards.",
+        "job_responsibility": "Design, develop, and maintain software applications, Write clean and maintainable code, Debug and troubleshoot issues, Collaborate with cross-functional teams, Stay up-to-date with emerging trends and technologies, Test and deploy software, Document processes and procedures, Provide technical support and guidance to other team members",
+        "educational_requirements": "Bachelor's or higher degree in Computer Science or related field",
+        "experiences": "Minimum 3 years of experience in software development",
+        "contact_information": {
+          "phone": "123-456-7890",
+          "email": "jobs@acmecorp.com"
+        }
+      },
+      {
+        "id": 2,
+        "company_logo": "../../assets/Logo/netflix-4 1.png",
+        "job_title": "Marketing Manager",
+        "company_name": "XYZ Inc.",
+        "remote_or_onsite": "Onsite",
+        "location": "New York City",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$80,000 - $100,000",
+        "job_description": "We are looking for an experienced Marketing Manager to join our team. The ideal candidate will have a strong background in marketing with at least 5 years of experience in marketing roles. As a Marketing Manager, you will be responsible for developing and implementing marketing strategies to drive business growth, collaborating with cross-functional teams, and staying up-to-date with emerging trends and technologies. You will work closely with product managers, designers, and other stakeholders to ensure that marketing initiatives are aligned with business objectives.",
+        "job_responsibility": "Develop and implement marketing strategies to drive business growth, Collaborate with cross-functional teams to ensure marketing initiatives are aligned with business objectives, Conduct market research to identify target audiences and competitors, Develop and manage marketing budgets, Create and execute marketing campaigns across multiple channels, Analyze and report on the performance of marketing initiatives, Stay up-to-date with emerging trends and technologies in marketing",
+        "educational_requirements": "Bachelor's or higher degree in Marketing or related field",
+        "experiences": "Minimum 5 years of experience in marketing",
+        "contact_information": {
+          "phone": "555-555-5555",
+          "email": "jobs@xyzinc.com"
+        }
+      },
+      {
+        "id": 3,
+        "company_logo": "https://img.freepik.com/free-vector/flat-world-graphics-day-illustration_23-2148880103.jpg?w=740&t=st=1681074335~exp=1681074935~hmac=f6fd1c03f37d4c79d24851e92a39405e66f5d8a719045b7b1baf16cfb204595c",
+        "job_title": "Graphic Designer",
+        "company_name": "ABC Creative Agency",
+        "remote_or_onsite": "Onsite",
+        "location": "Los Angeles",
+        "fulltime_or_parttime": "Part-time",
+        "salary": "$30 - $40 per hour",
+        "job_description": "We are seeking a talented Graphic Designer to join our creative team. The ideal candidate will have a strong background in graphic design with at least 3 years of experience in design roles. As a Graphic Designer, you will be responsible for creating visual designs for print and digital media, collaborating with cross-functional teams, and staying up-to-date with emerging trends and technologies. You will work closely with the marketing team, product managers, and other stakeholders to ensure that visual designs are aligned with business objectives and brand standards.",
+        "job_responsibility": "Create visual designs for print and digital media. Collaborate with cross-functional teams to ensure visual designs are aligned with business objectives and brand standards. Manage multiple design projects from concept to completion. Produce design assets for marketing campaigns, including social media graphics, email templates, and advertising materials. Develop and maintain brand identity guidelines. Stay up-to-date with emerging trends and technologies in graphic design",
+        "educational_requirements": "Associate's or higher degree in Graphic Design or related field",
+        "experiences": "Minimum 2 years of experience in graphic design",
+        "contact_information": {
+          "phone": "111-111-1111",
+          "email": "jobs@abccreative.com"
+        }
+      },
+      {
+        "id": 4,
+        "company_logo": "https://img.freepik.com/free-photo/digital-marketing-with-icons-business-people_53876-94833.jpg?w=740&t=st=1681074481~exp=1681075081~hmac=b0892783d8c0bac88da216e2b884a9caecfa73bf8d7141388937c9a47506c452",
+        "job_title": "Digital Marketing Specialist",
+        "company_name": "XYZ Agency",
+        "remote_or_onsite": "Onsite",
+        "location": "San Francisco",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$70,000 - $90,000",
+        "job_description": "We are seeking a skilled Digital Marketing Specialist to join our marketing team. The ideal candidate will have a strong background in digital marketing with at least 3 years of experience in digital marketing roles. As a Digital Marketing Specialist, you will be responsible for developing and implementing digital marketing campaigns to drive business growth, analyzing campaign performance, and staying up-to-date with emerging trends and technologies. You will work closely with the marketing team, product managers, and other stakeholders to ensure that digital marketing initiatives are aligned with business objectives.",
+        "job_responsibility": "Develop and implement digital marketing campaigns to drive business growth. Conduct market research to identify target audiences and competitors. Collaborate with cross-functional teams to ensure digital marketing initiatives are aligned with business objectives. Create and execute email marketing campaigns, including segmentation and A/B testing. Manage social media accounts and create social media content. Analyze and report on the performance of digital marketing campaigns. Stay up-to-date with emerging trends and technologies in digital marketing",
+        "educational_requirements": "Bachelor's or higher degree in Marketing or related field",
+        "experiences": "Minimum 3 years of experience in digital marketing",
+        "contact_information": {
+          "phone": "555-555-5555",
+          "email": "jobs@xyzagency.com"
+        }
+      },
+      {
+        "id": 5,
+        "company_logo": "https://img.freepik.com/free-vector/ux-ui-typographic-header-app-interface-improvement-user-interface-design-user-experience-development-modern-technology-concept-flat-vector-illustration_613284-1484.jpg?w=1060&t=st=1681074601~exp=1681075201~hmac=060f4a48a139a38d5b6b965a64e0eb24d6963fc202cbcfca5dc1ec65b813de45",
+        "job_title": "UI/UX Designer",
+        "company_name": "123 Design Co.",
+        "remote_or_onsite": "Onsite",
+        "location": "New York City",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$90,000 - $110,000",
+        "job_description": "We are seeking a talented UI/UX Designer to join our product team. The ideal candidate will have a strong background in user interface design, user experience design, and at least 3 years of experience in design roles. As a UI/UX Designer, you will be responsible for creating and delivering high-quality user interface designs for our digital products, collaborating with cross-functional teams, and conducting user research to inform design decisions. You will work closely with product managers, developers, and other stakeholders to ensure that user interface designs are aligned with business objectives and user needs.",
+        "job_responsibility": "Create high-quality user interface designs for digital products. Conduct user research and testing to inform design decisions. Collaborate with cross-functional teams to ensure user interface designs are aligned with business objectives and user needs. Create wireframes, prototypes, and mockups to communicate design concepts. Develop and maintain user interface design standards and guidelines.Stay up-to-date with emerging trends and technologies in UI/UX design",
+        "educational_requirements": "Bachelor's or higher degree in Graphic Design, Human-Computer Interaction...",
+        "experiences": "Minimum 5 years of experience in UI/UX design",
+        "contact_information": {
+          "phone": "111-111-1111",
+          "email": "jobs@123designco.com"
+        }
+      },
+      {
+        "id": 6,
+        "company_logo": "https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=900&t=st=1681074846~exp=1681075446~hmac=a5a58c3200e714fbb8c7b8c3e78c8a255316addea11552bb27428fbef80a9488",
+        "job_title": "Frontend Developer",
+        "company_name": "Acme Co.",
+        "remote_or_onsite": "Onsite",
+        "location": "Chicago",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$90,000 - $110,000",
+        "job_description": "We are seeking a skilled Frontend Developer to join our development team. The ideal candidate will have a strong background in frontend development and at least 3 years of experience in development roles. As a Frontend Developer, you will be responsible for implementing user interface designs, collaborating with cross-functional teams, and ensuring the technical feasibility of user interface designs. You will work closely with designers, product managers, and other stakeholders to ensure that user interface designs are aligned with business objectives and user needs.",
+        "job_responsibility": "Implement user interface designs using modern frontend technologies. Collaborate with cross-functional teams to ensure user interface designs are aligned with business objectives and user needs. Ensure the technical feasibility of user interface designs. Develop and maintain frontend codebase and libraries. Write clean, reusable, and scalable code. Optimize application for maximum speed and scalability. Stay up-to-date with emerging trends and technologies in frontend development",
+        "educational_requirements": "Bachelor's or higher degree in Computer Science or related field",
+        "experiences": "Minimum 3 years of experience in frontend development",
+        "contact_information": {
+          "phone": "555-123-4567",
+          "email": "jobs@acmeco.com"
+        }
+      },
+      {
+        "id": 7,
+        "company_logo": "https://img.freepik.com/free-vector/product-presentation-concept-illustration_114360-8416.jpg?w=740&t=st=1681075087~exp=1681075687~hmac=93372f78193905bc52b008d323057ffac075f60663dd47ed0d2d89c4ef0c3600",
+        "job_title": "Product Manager",
+        "company_name": "Global Corp.",
+        "remote_or_onsite": "Onsite",
+        "location": "Seattle",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$120,000 - $150,000",
+        "job_description": "We are looking for an experienced Product Manager to join our team. As a Product Manager, you will be responsible for defining and executing product strategy and roadmap, collaborating with cross-functional teams, and ensuring that product development meets business objectives and customer needs. You will work closely with designers, developers, marketers, and other stakeholders to deliver high-quality digital products that drive business growth and customer satisfaction.",
+        "job_responsibility": "Define and execute product strategy and roadmap. Conduct market research and competitive analysis to inform product development. Collaborate with cross-functional teams to ensure that product development meets business objectives and customer needs. Develop and maintain a deep understanding of customer needs, behaviors, and preferences. Create and prioritize product backlogs, write user stories, and work with development teams to ensure that product features are delivered on time and within scope. Define product metrics and KPIs, and track and analyze product performance. Develop and maintain strong relationships with internal and external stakeholders. Stay up-to-date with emerging trends and technologies in digital product development",
+        "educational_requirements": "Bachelor's or higher degree in Business Administration or related field",
+        "experiences": "Minimum 5 years of experience in product management",
+        "contact_information": {
+          "phone": "555-987-6543",
+          "email": "jobs@globalcorp.com"
+        }
+      },
+      {
+        "id": 8,
+        "company_logo": "https://img.freepik.com/premium-vector/stock-market-flat-modern-design-illustration_566886-193.jpg?w=900",
+        "job_title": "Accountant",
+        "company_name": "Top Firm",
+        "remote_or_onsite": "Onsite",
+        "location": "Boston",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$60,000 - $80,000",
+        "job_description": "We are seeking a skilled and experienced Accountant to join our team. As an Accountant, you will be responsible for managing financial transactions and ensuring that financial records are accurate and up-to-date. You will work closely with the finance team to maintain financial stability and ensure compliance with all financial regulations.",
+        "job_responsibility": "Manage financial transactions, including accounts payable and accounts receivable. Maintain accurate financial records and prepare financial statements. Perform financial analysis and reporting. Ensure compliance with all financial regulations and tax laws. Provide support during audits and other financial reviews. Develop and maintain relationships with financial institutions, vendors, and other stakeholders. Assist with budgeting and forecasting. Monitor and maintain internal controls to ensure financial integrity. Provide support to other departments as needed",
+        "educational_requirements": "Bachelor's or higher degree in Accounting or related field",
+        "experiences": "Minimum 2 years of experience in accounting",
+        "contact_information": {
+          "phone": "555-111-2222",
+          "email": "jobs@topfirm.com"
+        }
+      },
+      {
+        "id": 9,
+        "company_logo": "../../assets/Logo/google-1-1 1-1.png",
+        "job_title": "Data Scientist",
+        "company_name": "Tech Startup",
+        "remote_or_onsite": "Remote",
+        "location": "Any",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$120,000 - $150,000",
+        "job_description": "We are seeking a talented and motivated Data Scientist to join our team. As a Data Scientist, you will be responsible for analyzing complex data sets to provide insights and recommendations that drive business growth and innovation. You will work closely with cross-functional teams to develop data-driven solutions that address business challenges and opportunities.",
+        "job_responsibility": "Analyze and interpret complex data sets using statistical and machine learning techniques. Develop predictive models and algorithms to identify patterns and trends in data. Provide insights and recommendations to stakeholders based on data analysis. Collaborate with cross-functional teams to develop data-driven solutions that address business challenges and opportunities. Work with data engineers to develop data pipelines and ensure data quality and integrity. Communicate complex data analysis to both technical and non-technical audiences. Stay up-to-date with emerging trends and technologies in data science and machine learning. Develop and maintain relationships with internal and external stakeholders",
+        "educational_requirements": "Master's or higher degree in Computer Science, Statistics, or related field",
+        "experiences": "Minimum 5 years of experience in data science",
+        "contact_information": {
+          "phone": "555-123-7890",
+          "email": "jobs@techstartup.com"
+        }
+      },
+      {
+        "id": 10,
+        "company_logo": "https://img.freepik.com/free-vector/online-business-concept-people-forming-business-internet-ecommerce-idea-digital-sale-advertising-setup-flat-vector-illustration_613284-2429.jpg?w=900&t=st=1681075970~exp=1681076570~hmac=abfd04d940249768b8ec66d17b6ef8c459276592ef10bf831d8eb44fc062d417",
+        "job_title": "Marketing Coordinator",
+        "company_name": "Retail Company",
+        "remote_or_onsite": "Onsite",
+        "location": "New York City",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$50,000 - $60,000",
+        "job_description": "We are seeking a detail-oriented and organized Marketing Coordinator to join our team. As a Marketing Coordinator, you will be responsible for supporting marketing campaigns and initiatives, managing marketing materials and assets, and coordinating with cross-functional teams to ensure successful execution of marketing initiatives.",
+        "job_responsibility": "Support the development and execution of marketing campaigns and initiatives. Manage marketing materials and assets, including collateral, presentations, and digital content. Coordinate with cross-functional teams to ensure successful execution of marketing initiatives.Assist with the development and execution of social media and email marketing campaigns. Conduct market research and analysis to inform marketing strategies and initiatives. Monitor and report on marketing campaign performance and effectiveness. Maintain marketing databases and CRM systems. Support event planning and execution, including trade shows and conferences. Collaborate with internal and external stakeholders to ensure successful execution of marketing initiatives. Stay up-to-date with emerging trends and technologies in marketing",
+        "educational_requirements": "Bachelor's or higher degree in Marketing or related field",
+        "experiences": "Minimum 1 year of experience in marketing",
+        "contact_information": {
+          "phone": "555-444-3333",
+          "email": "jobs@retailcompany.com"
+        }
+      }
+    ]
+  }

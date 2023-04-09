@@ -1,0 +1,29 @@
+{
+    "categories": [
+      {
+        "id": 11,
+        "logo": "../../assets/Icons/Frame-1.png",
+        "name": "Software Development & Engineering",
+        "jobs_available": 25
+      },
+      {
+        "id": 12,
+        "logo": "../../assets/Icons/Frame-2.png",
+        "name": "Data Analytics & Science",
+        "jobs_available": 12
+      },
+      {
+        "id": 13,
+        "logo": "../../assets/Icons/Frame-3.png",
+        "name": "Graphic Designer",
+        "jobs_available": 17
+      },
+      {
+        "id": 14,
+        "logo": "../../assets/Icons/Frame-4.png",
+        "name": "Digital Marketing Specialist",
+        "jobs_available": 8
+      }
+    ]
+  }
+  

@@ -15,7 +15,14 @@
         "contact_information": {
           "phone": "123-456-7890",
           "email": "jobs@acmecorp.com"
-        }
+        },
+        "address" : {
+          "street": "123 Main St",
+          "city": "Anytown",
+          "state": "CA",
+          "zip": "12345",
+          "country": "United States"
+          }
       },
       {
         "id": 2,
@@ -33,7 +40,14 @@
         "contact_information": {
           "phone": "555-555-5555",
           "email": "jobs@xyzinc.com"
-        }
+        },
+        "address":{
+          "street": "456 Elm St",
+          "city": "Smallville",
+          "state": "NY",
+          "zip": "54321",
+          "country": "United States"
+          }
       },
       {
         "id": 3,
@@ -51,7 +65,14 @@
         "contact_information": {
           "phone": "111-111-1111",
           "email": "jobs@abccreative.com"
-        }
+        },
+        "address": {
+          "street": "789 Oak Ave",
+          "city": "Metropolis",
+          "state": "IL",
+          "zip": "67890",
+          "country": "United States"
+          }
       },
       {
         "id": 4,
@@ -69,7 +90,14 @@
         "contact_information": {
           "phone": "555-555-5555",
           "email": "jobs@xyzagency.com"
-        }
+        },
+        "address": {
+          "street": "1010 Maple St",
+          "city": "Springfield",
+          "state": "MA",
+          "zip": "11111",
+          "country": "United States"
+          }
       },
       {
         "id": 5,
@@ -87,7 +115,14 @@
         "contact_information": {
           "phone": "111-111-1111",
           "email": "jobs@123designco.com"
-        }
+        },
+        "address": {
+          "street": "1313 Mockingbird Ln",
+          "city": "Beverly Hills",
+          "state": "CA",
+          "zip": "90210",
+          "country": "United States"
+          }
       },
       {
         "id": 6,
@@ -105,7 +140,14 @@
         "contact_information": {
           "phone": "555-123-4567",
           "email": "jobs@acmeco.com"
-        }
+        },
+        "address": {
+          "street": "2468 Rainbow Rd",
+          "city": "Wonderland",
+          "state": "CA",
+          "zip": "98765",
+          "country": "United States"
+          }
       },
       {
         "id": 7,
@@ -123,7 +165,14 @@
         "contact_information": {
           "phone": "555-987-6543",
           "email": "jobs@globalcorp.com"
-        }
+        },
+        "address": {
+          "street": "5555 Main St",
+          "city": "Big City",
+          "state": "NY",
+          "zip": "55555",
+          "country": "United States"
+          }
       },
       {
         "id": 8,
@@ -141,7 +190,14 @@
         "contact_information": {
           "phone": "555-111-2222",
           "email": "jobs@topfirm.com"
-        }
+        },
+        "address": {
+          "street": "777 Lucky Ln",
+          "city": "Las Vegas",
+          "state": "NV",
+          "zip": "88888",
+          "country": "United States"
+          }
       },
       {
         "id": 9,
@@ -159,7 +215,14 @@
         "contact_information": {
           "phone": "555-123-7890",
           "email": "jobs@techstartup.com"
-        }
+        },
+        "address": {
+          "street": "999 Ninth St",
+          "city": "Washington",
+          "state": "DC",
+          "zip": "20001",
+          "country": "United States"
+          }
       },
       {
         "id": 10,
@@ -177,6 +240,13 @@
         "contact_information": {
           "phone": "555-444-3333",
           "email": "jobs@retailcompany.com"
-        }
+        },
+        "address": {
+          "street": "1212 Broadway",
+          "city": "New York",
+          "state": "NY",
+          "zip": "10001",
+          "country": "United States"
+          }
       }
 ]

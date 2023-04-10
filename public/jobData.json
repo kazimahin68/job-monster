@@ -1,5 +1,4 @@
-{
-    "jobs": [
+[
       {
         "id": 1,
         "company_logo": "../../assets/Logo/google-1-1 1.png",
@@ -180,5 +179,4 @@
           "email": "jobs@retailcompany.com"
         }
       }
-    ]
-  }
+]

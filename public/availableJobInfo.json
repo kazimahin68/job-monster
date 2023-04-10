@@ -1,5 +1,4 @@
-{
-    "categories": [
+[
       {
         "id": 11,
         "logo": "../../assets/Icons/Frame-1.png",
@@ -24,6 +23,5 @@
         "name": "Digital Marketing Specialist",
         "jobs_available": 8
       }
-    ]
-  }
+]
   

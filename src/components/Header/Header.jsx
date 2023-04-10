@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Banner from '../Banner/Banner';
 
 const Header = () => {
     return (
@@ -15,7 +14,6 @@ const Header = () => {
                 </div>
                 <button className='btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] border-none'>Start Applying</button>
             </div>
-            <Banner home = {true}></Banner>
         </nav>
     );
 };

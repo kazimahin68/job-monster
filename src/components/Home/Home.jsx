@@ -1,16 +1,14 @@
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom';
-import Header from '../Header/Header';
 import JobCategories from '../JobCategories/JobCategories';
 import Jobs from '../Jobs/Jobs';
+import Banner from '../Banner/Banner';
 
 const Home = () => {
     return (
         <div>
-            <Header></Header>
+            <Banner home = {true}></Banner>
             <JobCategories></JobCategories>
             <Jobs></Jobs>
-            <Outlet></Outlet>
         </div>
     );
 };

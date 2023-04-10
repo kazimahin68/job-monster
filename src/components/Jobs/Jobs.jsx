@@ -6,7 +6,7 @@ const Jobs = () => {
     useEffect(() => {
         fetch('jobData.json').then(res => res.json()).then(data => setJobs(data))
     }, []);
-    console.log(jobs)
+    // console.log(jobs)
     return (
         <div className='container mx-auto mt-32'>
             <div>

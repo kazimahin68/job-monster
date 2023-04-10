@@ -1,5 +1,6 @@
 import React from 'react';
 import { MapPinIcon, CurrencyDollarIcon } from '@heroicons/react/24/outline';
+import { Link } from 'react-router-dom';
 
 const Job = ({ job }) => {
     const { id, address, company_logo, company_name, remote_or_onsite, salary, job_title } = job;
@@ -15,7 +16,7 @@ const Job = ({ job }) => {
                 <p className='text-xl font-semibold text-[#757575]'><MapPinIcon className='w-6 h-6 inline mr-2  mb-1'></MapPinIcon>{address.city}, {address.country}</p>
                 <p className='text-xl font-semibold text-[#757575]'><CurrencyDollarIcon className='w-6 h-6 inline mr-2  mb-1'></CurrencyDollarIcon>{salary}</p>
             </div>
-            <button className='btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] border-none'>View Details</button>
+            <Link to={`/job/${id}`}><button className='btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] border-none'>View Details</button></Link>
         </div>
     );
 };

@@ -22,7 +22,7 @@ const Details = () => {
             <div>
                 <Banner jobDetails = {true}></Banner>
             </div> 
-            <div>
+            <div className='mt-32'>
             {
                     detail.map(detail => <ShowDetails key ={detail.id} details ={detail}></ShowDetails>)
                 }

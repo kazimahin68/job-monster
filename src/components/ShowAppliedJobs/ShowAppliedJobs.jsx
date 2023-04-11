@@ -1,9 +1,10 @@
 import React from 'react';
 import { MapPinIcon, CurrencyDollarIcon } from '@heroicons/react/24/outline';
+import { Link, useNavigate } from 'react-router-dom';
 
 const ShowAppliedJobs = ({ ShowAppliedJobs }) => {
     console.log(ShowAppliedJobs);
-    const { company_logo, company_name, job_title, remote_or_onsite, address, salary } = ShowAppliedJobs;
+    const { company_logo, company_name, job_title, remote_or_onsite, address, salary, id } = ShowAppliedJobs;
     return (
         <div className='mb-6 p-10 border-2 border-[#f0f0f0] rounded-lg flex items-center justify-between'>
             <div className='flex items-center gap-8'>
@@ -22,7 +23,7 @@ const ShowAppliedJobs = ({ ShowAppliedJobs }) => {
                     </div>
                 </div>
             </div>
-            <button className='btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] border-none'>View Details</button>
+            <Link to={`/job/${id}`}><button className='btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] border-none'>View Details</button></Link>
         </div>
 
     );

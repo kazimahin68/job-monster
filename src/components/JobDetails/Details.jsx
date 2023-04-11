@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import ShowDetails from '../ShowDetails/ShowDetails';
 import Banner from '../Banner/Banner';
-import { addToDb } from '../Utilities/LocalStogage';
+import { addToDb } from '../Utilities/LocalStorage';
 
 const Details = () => {
     // console.log(details);
@@ -12,7 +12,7 @@ const Details = () => {
 
     const [detail, setDetail] = useState([]);
     const [jobs, setJobs] = useState([]);
-    console.log(jobs)
+    // console.log(jobs)
 
     useEffect(() =>{
         const detail = allJobs.filter(job => job.id === id);

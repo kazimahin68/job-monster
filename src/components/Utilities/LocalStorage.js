@@ -1,15 +1,7 @@
 
 
 
-// Get Data From Local Storage 
-const getAppliedJobs = () =>{
-    let appliedJob ={};
-    const storedJobs = localStorage.getItem('applied-jobs');
-    if(storedJobs){
-        appliedJob = JSON.parse(storedJobs);
-    }
-    return appliedJob;
-}
+
 
 // const addToDb = (id) => {
 //     let appliedJob = getAppliedJobs();
@@ -33,6 +25,16 @@ const addToDb = (id) => {
       localStorage.setItem('applied-jobs', JSON.stringify(appliedJob));
     }
   }
+
+  // Get Data From Local Storage 
+const getAppliedJobs = () =>{
+  let appliedJob ={};
+  const storedJobs = localStorage.getItem('applied-jobs');
+  if(storedJobs){
+      appliedJob = JSON.parse(storedJobs)
+  }
+  return appliedJob;
+}
 
 
 export {

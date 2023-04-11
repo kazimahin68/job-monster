@@ -1,9 +1,9 @@
 import React from 'react';
 import { CalendarDaysIcon, CurrencyDollarIcon, PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/outline';
 
-const ShowDetails = ({ details }) => {
+const ShowDetails = ({ details, handleJobs }) => {
     const { job_description, job_responsibility, experiences, educational_requirements, salary, job_title, address, contact_information } = details;
-    console.log(details)
+    // console.log(details)
     return (
         <div className='flex container mx-auto gap-5 mb-32'>
             <div className='basis-8/12'>
@@ -28,7 +28,7 @@ const ShowDetails = ({ details }) => {
                         <p className='text-xl font-semibold text-[#757575] mb-6'><MapPinIcon className='w-6 h-6 inline mr-2  mb-1 text-[#7E90FE]'></MapPinIcon><span className='font-bold text-[#474747]'>Address: </span>{address?.city}, {address?.country}, {address?.state}, {address?.street}, {address?.zip}</p>
                     </div>
                 </div>
-                <button className='btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] border-none text-white w-full font-bold text-xl'>Apply Now</button>
+                <button onClick={() => handleJobs(details)} className='btn bg-gradient-to-r from-[#7E90FE] to-[#9873FF] border-none text-white w-full font-bold text-xl'>Apply Now</button>
             </div>
         </div>
     );

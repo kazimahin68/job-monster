@@ -15,6 +15,7 @@ import Main from './components/Main/Main';
 import Details from './components/JobDetails/Details';
 import appliedJobsLoader from './components/Utilities/Loader';
 import ErrorPage from './components/ErrorPage/ErrorPage';
+import Chart from './components/Chart/PieChartComponent';
 
 
 const router = createBrowserRouter([

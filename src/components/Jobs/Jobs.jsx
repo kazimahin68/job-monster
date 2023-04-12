@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Job from '../Job/Job';
+import AppliedJobs from '../AppliedJobs/AppliedJobs';
 
 const Jobs = () => {
     const [jobs, setJobs] = useState([]);
     useEffect(() => {
-        fetch('jobData.json').then(res => res.json()).then(data => setJobs(data))
+        fetch('./jobData.json').then(res => res.json()).then(data => setJobs(data))
     }, []);
 
     const [showAllJobs, setAllJobs] = useState(false);
@@ -16,7 +17,7 @@ const Jobs = () => {
     const jobsToShow = showAllJobs ? jobs : shownJobs;
     // console.log(jobs)
     return (
-        <div className='container mx-auto mt-32'>
+        <div className='w-4/5 mx-auto mt-32'>
             <div>
                 <h2 className='text-4xl font-extrabold mb-4 text-center'>Featured Jobs</h2>
                 <p className=' text-center mb-8'>Explore thousands of job opportunities with all the information you need. Its your future</p>

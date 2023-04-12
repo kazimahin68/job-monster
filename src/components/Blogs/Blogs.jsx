@@ -1,9 +1,13 @@
 import React from 'react';
+import Banner from '../Banner/Banner';
 
 const Blogs = () => {
     return (
         <div>
-            <div className='container mx-auto mt-32'>
+            <div>
+                <Banner blogBanner = {true}></Banner>
+            </div>
+            <div className='w-4/5 mx-auto mt-32'>
                 <h2 className='text-2xl font-bold'>
                     1. When should we use context API?
                 </h2>
@@ -19,7 +23,7 @@ const Blogs = () => {
                     In general, the Context API can be a good choice when you need to share data between multiple components in a React application and want to avoid prop drilling or manage global state. However, it's important to note that using the Context API can add complexity to your code, so you should carefully consider whether it's the best solution for your specific use case.
                 </p>
             </div>
-            <div className='container mx-auto mt-32'>
+            <div className='w-4/5 mx-auto mt-32'>
                 <h2 className='text-2xl font-bold'>
                     2. What is custom hook?
                 </h2>
@@ -31,7 +35,7 @@ const Blogs = () => {
                     Using custom hooks can help to improve the readability and maintainability of your code by abstracting away complex logic into simple and reusable functions. This can also help to reduce the amount of boilerplate code in your components, making them easier to understand and modify. Overall, custom hooks are a powerful feature in React that can help to make your code more modular and reusable.
                 </p>
             </div>
-            <div className='container mx-auto mt-32'>
+            <div className='w-4/5 mx-auto mt-32'>
                 <h2 className='text-2xl font-bold'>
                     3. What is useRef?
                 </h2>
@@ -40,7 +44,7 @@ const Blogs = () => {
 
                 </p>
             </div>
-            <div className='container mx-auto mt-32 mb-32'>
+            <div className='w-4/5 mx-auto mt-32 mb-32'>
                 <h2 className='text-2xl font-bold'>
                     4. What is useMemo?
                 </h2>

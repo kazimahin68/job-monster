@@ -1,21 +1,5 @@
 
-
-
-
-
-// const addToDb = (id) => {
-//     let appliedJob = getAppliedJobs();
-//     const quantity = appliedJob[id];
-//     if (quantity) {
-//         const newQuantity = quantity + 1;
-//         appliedJob[id] = newQuantity;
-//     }
-//     else {
-//         appliedJob[id] = 1;
-//     }
-//     localStorage.setItem('applied-jobs', JSON.stringify(appliedJob));
-// }
-
+// Add Data to Local Storage 
 const addToDb = (id) => {
     let appliedJob = getAppliedJobs();
     if (appliedJob.hasOwnProperty(id)) {

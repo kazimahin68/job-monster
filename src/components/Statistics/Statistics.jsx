@@ -1,13 +1,17 @@
 import React from 'react';
-import { PieChart } from 'recharts';
-import Chart from '../Chart/PieChartComponent'
 import PieChartComponent from '../Chart/PieChartComponent';
+import Banner from '../Banner/Banner';
 
 const Statistics = () => {
     return (
-        <div className='flex mt-32 items-center justify-center'>
+       <div>
+        <div>
+            <Banner statistics ={true}></Banner>
+        </div>
+         <div className='flex mt-32 items-center justify-center'>
             <PieChartComponent></PieChartComponent>
         </div>
+       </div>
     );
 };
 

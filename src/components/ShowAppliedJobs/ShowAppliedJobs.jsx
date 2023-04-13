@@ -3,7 +3,7 @@ import { MapPinIcon, CurrencyDollarIcon } from '@heroicons/react/24/outline';
 import { Link, useNavigate } from 'react-router-dom';
 
 const ShowAppliedJobs = ({ ShowAppliedJobs }) => {
-    console.log(ShowAppliedJobs);
+    // console.log(ShowAppliedJobs);
     const { company_logo, company_name, job_title, remote_or_onsite, address, salary, id } = ShowAppliedJobs;
     return (
         <div className='mb-6 p-10 border-2 border-[#f0f0f0] rounded-lg flex items-center justify-between'>

@@ -12,7 +12,7 @@ const Job = ({ job }) => {
             <div className='flex items-center justify-center border-2 border-[#7E90FE] w-24 h-10 mb-4 rounded-lg'>
                 <p className='font-semibold text-base text-[#7E90FE] text-center'>{remote_or_onsite}</p>
             </div>
-            <div className='mb-6 flex gap-6 items-center'>
+            <div className='mb-6 flex flex-col md:flex-row gap-6'>
                 <p className='text-xl font-semibold text-[#757575]'><MapPinIcon className='w-6 h-6 inline mr-2  mb-1'></MapPinIcon>{address.city}, {address.country}</p>
                 <p className='text-xl font-semibold text-[#757575]'><CurrencyDollarIcon className='w-6 h-6 inline mr-2  mb-1'></CurrencyDollarIcon>{salary}</p>
             </div>

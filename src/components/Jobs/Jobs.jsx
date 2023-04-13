@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Job from '../Job/Job';
-import AppliedJobs from '../AppliedJobs/AppliedJobs';
 
 const Jobs = () => {
     const [jobs, setJobs] = useState([]);

@@ -22,6 +22,10 @@ const router = createBrowserRouter([
     element: <Main></Main>,
     children: [
       {
+        path: '/',
+        element: <Home></Home>
+      },
+      {
         path: '/home',
         element: <Home></Home>
       },
@@ -41,12 +45,12 @@ const router = createBrowserRouter([
       {
         path: '/applied-jobs',
         element: <AppliedJobs></AppliedJobs>
-      },
-      {
-        path: '/*',
-        element: <ErrorPage></ErrorPage>
       }
     ]
+  },
+  {
+    path: '/*',
+    element: <ErrorPage></ErrorPage>
   }
 ])
 

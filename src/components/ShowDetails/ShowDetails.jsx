@@ -5,7 +5,7 @@ const ShowDetails = ({ details, handleJobs }) => {
     const { job_description, job_responsibility, experiences, educational_requirements, salary, job_title, address, contact_information } = details;
     // console.log(details)
     return (
-        <div className='flex w-4/5 mx-auto gap-5 mb-32'>
+        <div className='flex flex-col md:flex-row w-4/5 mx-auto gap-5 mb-32'>
             <div className='basis-8/12'>
                 <p className='font-medium text-[#757575] mb-6'><span className='font-extrabold text-black'>Job Description: </span> {job_description}</p>
                 <p className='font-medium text-[#757575] mb-6'><span className='font-extrabold text-black'>Job Responsibility: </span> {job_responsibility}</p>

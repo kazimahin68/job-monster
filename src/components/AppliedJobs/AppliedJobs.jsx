@@ -18,6 +18,15 @@ const AppliedJobs = () => {
             appliedJobs.push(addedJobs);
         }
     }
+    // console.log(appliedJobs)
+    const [locationFilter, setLocationFilter] = useState('');
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+    const handleLocationFilter = (location) =>{
+        setIsDropdownOpen(false);
+        setLocationFilter(location);
+        //   console.log(location)
+    }
+    const filteredJobs = locationFilter ? appliedJobs.filter(job => job.remote_or_onsite === locationFilter) : appliedJobs;
     
     return (
 
@@ -26,17 +35,20 @@ const AppliedJobs = () => {
                 <Banner appliedJob={true}></Banner>
             </div>
 
-            <div className='w-4/5 mx-auto p-7 mt-32'>
+            <div className='w-4/5 mx-auto mt-32'>
                 <div className="dropdown flex justify-end mb-6">
-                    <label tabIndex={0} className="btn m-1 bg-[#f4f4f4] text-[#525252] border-0">Filter By <ChevronDownIcon className='w-6 h-6 inline ml-2'></ChevronDownIcon></label>
-                    <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 mt-14">
-                        <li><a>Item 1</a></li>
-                        <li><a>Item 2</a></li>
+                    <label onClick={() => setIsDropdownOpen(true)} tabIndex={0} className="btn m-1 bg-[#f4f4f4] text-[#525252] border-0">Filter By <ChevronDownIcon className='w-6 h-6 inline ml-2'></ChevronDownIcon></label>
+                    <ul tabIndex={0} className={`dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 mt-14 ${isDropdownOpen ? 'block' : 'hidden'}`}>
+                        <li><a onClick={()=> handleLocationFilter('Onsite')}>Onsite Jobs</a></li>
+                        <hr />
+                        <li><a onClick={()=> handleLocationFilter('Remote')}>Remote Jobs</a></li>
+                        <hr />
+                        <li><a onClick={() => handleLocationFilter('')}>All Jobs</a></li>
                     </ul>
                 </div>
                 <div>
                     {
-                        appliedJobs.map(job => <ShowAppliedJobs key={job.id} ShowAppliedJobs={job}></ShowAppliedJobs>)
+                        filteredJobs.map(job => <ShowAppliedJobs key={job.id} ShowAppliedJobs={job}></ShowAppliedJobs>)
                     }
                 </div>
             </div>

@@ -16,7 +16,7 @@ const Jobs = () => {
     const jobsToShow = showAllJobs ? jobs : shownJobs;
     // console.log(jobs)
     return (
-        <div className='w-4/5 mx-auto mt-32'>
+        <div className='xl:w-4/5 w-11/12 mx-auto mt-32'>
             <div>
                 <h2 className='text-4xl font-extrabold mb-4 text-center'>Featured Jobs</h2>
                 <p className=' text-center mb-8'>Explore thousands of job opportunities with all the information you need. Its your future</p>

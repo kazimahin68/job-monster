@@ -37,7 +37,7 @@ const AppliedJobs = () => {
 
             <div className='w-4/5 mx-auto mt-32'>
                 <div className="dropdown flex justify-end mb-6">
-                    <label onClick={() => setIsDropdownOpen(true)} tabIndex={0} className="btn m-1 bg-[#f4f4f4] text-[#525252] border-0">Filter By <ChevronDownIcon className='w-6 h-6 inline ml-2'></ChevronDownIcon></label>
+                    <label onClick={() => setIsDropdownOpen(!isDropdownOpen)} tabIndex={0} className="btn m-1 bg-[#f4f4f4] text-[#525252] border-0 hover:bg-[#7E90FE]">Filter By <ChevronDownIcon className='w-6 h-6 inline ml-2'></ChevronDownIcon></label>
                     <ul tabIndex={0} className={`dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 mt-14 ${isDropdownOpen ? 'block' : 'hidden'}`}>
                         <li><a onClick={()=> handleLocationFilter('Onsite')}>Onsite Jobs</a></li>
                         <hr />

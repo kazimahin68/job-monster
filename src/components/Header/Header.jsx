@@ -6,7 +6,7 @@ const Header = () => {
     const [open, setOpen]  = useState(false);
     return (
         <nav className='md:px-5 md:p-5 p-2 bg-[#f9f8ff]'>
-            <div className='container md:w-4/5 mx-auto flex gap-3 justify-between items-center'>
+            <div className='xl:w-4/5 w-11/12 mx-auto flex gap-3 justify-between items-center'>
                 <div className='md:hidden' onClick={() => setOpen(!open)}>
                     <span>{open === true ? <XMarkIcon className='text-black w-12 h-12'></XMarkIcon> : <Bars3Icon className='text-black w-12 h-12'></Bars3Icon>}</span>
                 </div>

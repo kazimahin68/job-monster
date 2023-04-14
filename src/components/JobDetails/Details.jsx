@@ -3,6 +3,7 @@ import { useLoaderData, useParams } from 'react-router-dom';
 import ShowDetails from '../ShowDetails/ShowDetails';
 import Banner from '../Banner/Banner';
 import { addToDb } from '../Utilities/LocalStorage';
+import { toast } from 'react-hot-toast';
 
 const Details = () => {
     // console.log(details);
@@ -23,11 +24,14 @@ const Details = () => {
     const handleJobs = (details) =>{
         let newJob = [];
         const exists = jobs.find(job => job.id === details.id);
-        if(!exists){
-            newJob = [...jobs, details]
+        if(exists){
+            toast('You have already applied in this job')
         }
-        setJobs(newJob);
-        addToDb(details.id);
+        else{
+            newJob = [...jobs, details]
+            setJobs(newJob);
+            addToDb(details.id);
+        }
     }
     return (
         <div>
